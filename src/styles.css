@@ -20,11 +20,15 @@
 }
 
 .img-loggo {
+    width: 600px;
+}
+
+.img1-loggo {
     width: 90px;
 }
 
 .main-container {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 @keyframes driver {}
