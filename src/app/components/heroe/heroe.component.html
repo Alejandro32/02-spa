@@ -1,3 +1,27 @@
-<p>
-    Heroes !
-</p>
+<h1>{{heroe.nombre}} <small> {{heroe.aparicion}}
+    </small>
+</h1>
+
+<div class="row animated fadeIn fast">
+
+    <div class="col-md-3">
+
+        <img [src]="heroe.img" class="img-fluid" alt="heroe.nombre">
+        <br><br>
+        <a [routerLink]="['/Heroes']" class="btn btn-outline-danger btn-block">Regresar..</a>
+
+    </div>
+
+    <div class="col-md-9">
+        <img class="img-loggo" src={{heroe.img1}} alt="DC">
+        <hr>
+        <p>Biografia de {{heroe.nombre }}</p>
+        <hr>
+        <p>{{heroe.bio}}</p>
+
+    </div>
+
+
+
+
+</div>

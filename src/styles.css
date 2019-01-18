@@ -1,9 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-.main-container {
-    margin-top: 20px;
-}
-
 .animated {
     -webkit-animation-duration: 4s;
     animation-duration: 4s;
@@ -12,11 +8,29 @@
     animation-fill-mode: forwards;
 }
 
+.fadeIn {
+    animation-name: fadeIn;
+}
+
 .fast {
     -webkit-animation-duration: 4.4s;
     animation-duration: 4.4s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+}
+
+.img-loggo {
+    width: 90px;
+}
+
+.main-container {
+    margin-top: 20px;
+}
+
+@keyframes driver {}
+
+body {
+    padding-bottom: 50px;
 }
 
 @keyframes fadeIn {
@@ -32,14 +46,4 @@
     from {
         transform: translatey(700)
     }
-}
-
-.fadeIn {
-    animation-name: fadeIn;
-}
-
-@keyframes driver {}
-
-body {
-    padding-bottom: 50px;
 }
