@@ -1,0 +1,27 @@
+<h1>{{villano.nombre}} <small> {{villano.aparicion}}
+</small>
+</h1>
+
+<div class="row animated fadeIn fast">
+
+    <div class="col-md-4">
+
+        <img [src]="villano.img" class="img-loggo img-fluid" alt="villano.nombre">
+        <br><br>
+        <a [routerLink]="['/Villanos']" class="btn btn-outline-danger btn-block">Regresar..</a>
+
+    </div>
+
+    <div class="col-md-8">
+        <img class="img1-loggo" src={{villano.img1}} alt="DC">
+        <hr>
+        <p>Biografia de {{villano.nombre }}</p>
+        <hr>
+        <p>{{villano.bio}}</p>
+
+    </div>
+
+
+
+
+</div>

@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
-//Componentes
+// Componentes
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/share/navbar/navbar.component';
@@ -10,13 +10,17 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { VillanosComponent } from './components/villanos/villanos.component';
+import { VillanoComponent } from './components/villano/villano.component';
 
 
-//Rutas//
+// Rutas//
 import { APP_ROUTING } from './app.routes';
 
-//Servicios
+// Servicios
 import { HeroesService } from './servicios/heroes.service';
+import { VillanosService } from './servicios/villanos.services';
+
 
 
 
@@ -28,7 +32,9 @@ import { HeroesService } from './servicios/heroes.service';
     HomeComponent,
     AboutComponent,
     HeroesComponent,
-    HeroeComponent
+    HeroeComponent,
+    VillanosComponent,
+    VillanoComponent
  ],
   imports: [
     BrowserModule,
@@ -36,7 +42,8 @@ import { HeroesService } from './servicios/heroes.service';
     APP_ROUTING
    ],
   providers: [
-    HeroesService
+    HeroesService,
+    VillanosService
   ],
   bootstrap: [AppComponent]
 })
