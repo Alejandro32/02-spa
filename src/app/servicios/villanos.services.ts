@@ -19,6 +19,7 @@ private villanos: Villano [] = [
           más realista del personaje y la sonrisa es una cicatriz hecha con un cuchillo.`,
     img: 'assets/img/Villanos/jocker.jpg',
     img1: 'assets/img/dc.jpg',
+    poder: 'Manipulacion,destreza de combate y estrategica.',
     aparicion: '1940',
     casa: 'DC'
   },
@@ -37,9 +38,23 @@ private villanos: Villano [] = [
            ya que ha vivido durante varios cientos de miles de años.Puede regenerarse de la desintegración completa al instante, haciéndolo imposible de matar.`,
     img: 'assets/img/Villanos/Dark.jpg',
     img1: 'assets/img/dc.jpg',
+    poder: 'Posee un intelecto superhumano, gran fuerza física, resistencia y durabilidad que se comparan con los de Superman, e igual que él goza de un factor de curación regenerativo. Su principal poder son los Rayos Omega',
     aparicion: '1970-12',
     casa: 'DC'
   },
+
+
+  {
+
+  nombre: 'Dormammu',
+  bio:  `Dormammu nació en una dimensión altamente violenta y con guerras constantes, y así, él se especializó en una forma de combate de esta dimensión, y ya que él es una entidad hecha de pura energía mística, Dormammu tiene grandes
+         poderes mágicos (que ultrapasan los del demonio Mephisto y rivalizan con el poder cósmico de Eternity).`,
+  img: 'assets/img/Villanos/dormamu.jpg',
+  img1: 'assets/img/Mar.png',
+  poder: 'Poderes de energía mística con gran fuerza,Poderes elementales,La capacidad de crear formas de vidas artificiales,Viajes temporales,Trasmutación de la materia,Teletransportación interdimensional.Es inmortal.',
+  aparicion: '1964-11',
+  casa: 'Marvel'
+},
 
   {
     nombre: 'Thanos',
@@ -49,6 +64,8 @@ private villanos: Villano [] = [
            Thanos es un consumado combatiente mano amano, que ha sido entrenado en el arte de la guerra en Titán.`,
     img: 'assets/img/Villanos/thanos.jpg',
     img1: 'assets/img/Mar.png',
+    poder: `Amplificación biónica, misticismo y poder otorgado por la entidad abstracta,fuerza sobrehumana, resistencia y durabilidad, Thanos puede absorber y proyectar grandes cantidades de energía
+            cósmica y es capaz de usar telequinesis, telepatía y manipulación de la materia`,
     aparicion: '1973-02',
     casa: 'Marvel'
   },
@@ -63,6 +80,7 @@ private villanos: Villano [] = [
            de análisis cibernético, y la habilidad de procesar información y realizar cálculos con rapidez y precisión sobrehumanas. Es un experto en robótica y estrategia.`,
     img: 'assets/img/Villanos/ultron.jpg',
     img1: 'assets/img/Mar.png',
+    poder: 'Armadura de Adamantium,Dominio de Tecnologia Avanzada,duplicar cuerpos roboticos,rayo encefalopático',
     aparicion: '1963-07',
     casa: 'Marvel'
   },
@@ -75,6 +93,7 @@ private villanos: Villano [] = [
            amorfos y simbióticos. En su estado natural originario, eran benevolentes y se unían mediante simbiosis a especies menores, transformando a anfitriones dignos en nobles guerreros. De esa forma, las criaturas que servían como
            anfitriones gozaban de una oportunidad mayor de supervivencia en ese planeta tan cruel, al mismo tiempo que ellos quedaban más protegidos como raza y se garantizaba una sociedad intergaláctica pacífica.`,
     img: 'assets/img/Villanos/venom.jpg',
+    poder: 'Fuerza sobrehumana,Resistencia,Vigor,Colmillos venenosos,Factor de curación,Camuflaje,Memoria Genética,Detección de descendientes,Creación de telarañas,Reconstitución de su biomasa,Percepción extrasensorial.',
     img1: 'assets/img/Mar.png',
     aparicion: '1984-12',
     casa: 'DC'
@@ -107,6 +126,7 @@ export interface Villano {
 
     nombre: string;
     bio: string;
+    poder: string;
     img: string;
     img1: string;
     aparicion: string;
