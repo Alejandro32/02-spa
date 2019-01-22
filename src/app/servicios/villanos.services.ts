@@ -56,6 +56,19 @@ private villanos: Villano [] = [
   casa: 'Marvel'
 },
 
+{
+
+  nombre: 'Magneto',
+  bio:  `Poderoso mutante con la habilidad de generar y controlar campos magnéticos mentales, Magneto ha sido el más eminente enemigo que hayan tenido los X-Men desde su creación.  `,
+  img: 'assets/img/Villanos/magneto.jpg',
+  img1: 'assets/img/Mar.png',
+  poder: `*Levitacion Magneica,*Percibir el mundo en su entorno como patrones de energía eléctrica y magnética,*Incendiar y absorber pernos de fuerza eléctrica y magnética
+  *invisibilidad,crear calor`,
+  aparicion: '1963-09',
+  casa: 'Marvel'
+},
+
+
   {
     nombre: 'Thanos',
     bio:  `Thanos es un miembro mutante de la raza de superhumanos conocidos como los Eternos de Titán.El personaje posee habilidades comunes a los Eternos, pero se amplifica en mayor grado

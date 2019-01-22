@@ -119,7 +119,7 @@ private heroes: Heroe [] = [
   },
 
   {
-    nombre: 'Mujer Maravilla',
+    nombre: 'Mujer Maravilla ',
     bio: `Posee una gran fuerza que fácil rivaliza la de los Kriptonianos más poderosos (Superman, Supergirl)
           y posee una increíble inteligencia, pues ella tiene conocimiento de magia, ciencias, sabe más de 10
           idiomas y es considerada una de los miembros más sabios e inteligentes de la Liga de la Justicia.
@@ -163,9 +163,17 @@ private heroes: Heroe [] = [
   },
 
 
+  {nombre: 'Thor',
+  bio: ``,
+  img: 'assets/img/thor.jpg',
+  img1: 'assets/img/Mar.png',
+  aparicion: '1962-08',
+  casa: 'Marvel',
+  poder: 'Volar,super fuerza,control de rayos'
+},
 
-
-  {nombre: 'Wolverine',
+ {
+    nombre: 'Wolverine',
     bio: `En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida
           por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra
            y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes
