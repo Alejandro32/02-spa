@@ -119,6 +119,19 @@ console.log(' Service already ');
   getVillano( idx: string ) {
     return this.villanos [idx];
   }
+
+
+  buscarVillanos ( termino: string): Villano[] {
+    const villanosArr: Villano[] = [];
+    termino = termino.toLowerCase();
+   for ( const villano of this.villanos ) {
+ const nombre = villano.nombre.toLowerCase();
+  if ( nombre.indexOf (termino) >= 0 ) {
+    villanosArr.push( villano );
+  }
+  }
+  return villanosArr;
+}
 }
 
 

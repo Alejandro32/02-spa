@@ -20,6 +20,8 @@ import { APP_ROUTING } from './app.routes';
 // Servicios
 import { HeroesService } from './servicios/heroes.service';
 import { VillanosService } from './servicios/villanos.services';
+import { BuscadorComponent } from './components/buscador/buscador.component';
+
 
 
 
@@ -34,7 +36,9 @@ import { VillanosService } from './servicios/villanos.services';
     HeroesComponent,
     HeroeComponent,
     VillanosComponent,
-    VillanoComponent
+    VillanoComponent,
+    BuscadorComponent,
+
  ],
   imports: [
     BrowserModule,

@@ -5,6 +5,8 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { VillanosComponent } from './components/villanos/villanos.component';
 import { VillanoComponent } from './components/villano/villano.component';
+import { BuscadorComponent } from './components/buscador/buscador.component';
+
 
 
 
@@ -16,6 +18,7 @@ const APP_ROUTES: Routes = [
     {path: 'Villanos', component: VillanosComponent },
     {path: 'heroe/:id', component: HeroeComponent },
     {path: 'villano/:id', component: VillanoComponent },
+    {path: 'buscar/:termino', component: BuscadorComponent },
     {path: '**', pathMatch: 'full', redirectTo: 'Inicio' }
 ];
 
